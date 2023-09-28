@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.cdnfonts.com/css/decalotype');
+
+
+body {
+    overflow-x: hidden;
+    /* Impede a rolagem horizontal */
+}
+
+
+
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#navbarCSS {
+
+    width: 100%;
+    height: 70px;
+    flex-shrink: 0;
+    background: #EDDECF;
+}
+
+#logoHeader {
+    margin-left: 58px;
+    margin-top: -10px;
+    width: 140px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+#menuSanduiche {
+    position: fixed;
+    left: 93%;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+#menuSanduiche img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.5s ease;
+}
+
+#menuSanduiche img:hover {
+    transform: scale(1.2);
+}
+
+#menuSanduiche img.active {
+    transform: rotate(360deg);
+}
+
+.links {
+
+    margin-top: -15px;
+}
+
+.linksNave {
+
+    font-family: 'Monda', sans-serif;
+    text-decoration: none;
+    word-spacing: 20px;
+    position: relative;
+    top: 2px;
+    left: 100%;
+    width: 107px;
+    height: 55px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 360% */
+    letter-spacing: 1px;
+}
+
+#paginaInicial {
+    background-image: url('/imagens/graos-de-cafe-no-fundo-antigo-de-madeira\ \(1\).jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    max-width: 100%;
+    /* Define a largura máxima para o conteúdo principal */
+    overflow-x: hidden;
+    /* Impede a rolagem horizontal no conteúdo principal */
+}
+
+#text-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 7%;
+    top: 210px;
+}
+
+#textoBV {
+    width: 1200.978px;
+    height: 108.123px;
+    position: relative;
+    margin-left: 6%;
+    top: 230px;
+    transform: rotate(-0.164deg);
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    font-family: 'Decalotype', sans-serif;
+
+    letter-spacing: 2.35px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.55);
+
+}
+
+#risco-font {
+    position: absolute;
+    margin-left: 549px;
+    margin-top: -15px;
+    width: 7px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+#risco-font1 {
+    position: absolute;
+    margin-left: 274px;
+    margin-top: 125px;
+    width: 7px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+#subTextoBV {
+    position: relative;
+    width: 964.234px;
+    height: 120.511px;
+    transform: rotate(-0.164deg);
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.863);
+    font-family: 'Decalotype', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    /* 144% */
+    letter-spacing: 1.75px;
+
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+
+/* PAGINAS */
+
+#paginaSobre {
+
+    width: 100%;
+    height: 1150px;
+    flex-shrink: 0;
+    background: #EDDECF;
+}
+
+#paginaCuriosidades {
+
+    width: 100%;
+    height: 1000px;
+    flex-shrink: 0;
+    background: #EDDECF;
+}
+
+#paginaCuriosidades2 {
+
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+    background: #D4A585;
+}
+
+#paginaProdutos {
+
+    width: 100%;
+    height: 838px;
+    flex-shrink: 0;
+    background: #EDDECF;
+}
+
+#paginaContato {
+
+    width: 100%;
+    height: 340px;
+    flex-shrink: 0;
+    background: #D4A585;
+}
+
+#paginaLucas {
+    width: 100%;
+    height: 700px;
+    flex-shrink: 0;
+    background: #D4A585;
+}
+
+/*Edições*/
+
+.footer {
+
+    width: 100%;
+    height: 501px;
+    flex-shrink: 0;
+    background: #EDDECF;
+}
+
+.barra-curiosidades {
+    position: relative;
+    top: 1px;
+    margin-left: 92px;
+    width: 1720px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+#logoCuriosidades {
+    position: relative;
+    margin-left: 732px;
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#logoSobre {
+
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.titleSobre {
+
+    position: relative;
+    margin-top: -160px;
+    margin-left: 248px;
+    width: 750px;
+    height: 144px;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Sub-page H1 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    /* 150% */
+    letter-spacing: -0.72px;
+}
+
+.barra {
+    position: relative;
+    margin-left: 92px;
+    width: 1720px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.title {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Body H4 */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: -0.36px;
+}
+
+#quemSomos {
+
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.texto {
+    position: relative;
+    width: 686px;
+    height: 90px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    letter-spacing: -0.27px;
+}
+
+#textoQS {
+    position: relative;
+    margin-top: 55px;
+    margin-left: 100px;
+    flex-shrink: 0;
+
+}
+
+#oqFazemos {
+
+    position: relative;
+    margin-top: -210px;
+    margin-left: 1000px;
+    flex-shrink: 0;
+}
+
+#textooqFazemos {
+
+    position: relative;
+    margin-top: 55px;
+    margin-left: 1000px;
+    flex-shrink: 0;
+}
+
+#comqTrab {
+
+    margin-top: 130px;
+    margin-left: 100px;
+
+}
+
+#textocomqTrab {
+
+    position: relative;
+    margin-top: 60px;
+    margin-left: 100px;
+    flex-shrink: 0;
+
+}
+
+#comoTrab {
+
+    position: relative;
+    margin-top: -210px;
+    margin-left: 1000px;
+    flex-shrink: 0;
+}
+
+#textoCT {
+
+    position: relative;
+    margin-top: 55px;
+    margin-left: 1000px;
+    flex-shrink: 0;
+}
+
+#imagemCafé {
+    position: relative;
+    margin-left: 80px;
+    margin-top: 150px;
+    width: 751px;
+    height: 441px;
+    flex-shrink: 0;
+    border-radius: 37px;
+}
+
+.textosCuriosidades1 {
+
+    width: 686px;
+    height: 36px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 914px;
+    margin-top: -365px;
+}
+
+#titleCuriosidades1 {
+
+    color: #000;
+
+    /* Body H4 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* 150% */
+    letter-spacing: -0.36px;
+    margin-bottom: 30px;
+}
+
+#pCuriosidades1 {
+
+    color: rgba(0, 0, 0, 0.80);
+
+    /* Body P */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    letter-spacing: -0.27px;
+}
+
+#imagemProdutos {
+
+    position: relative;
+    margin-left: 914px;
+    margin-top: 80px;
+    width: 751px;
+    height: 441px;
+    flex-shrink: 0;
+    border-radius: 37px;
+}
+
+.textosCuriosidades2 {
+
+    width: 656px;
+    height: 36px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 180px;
+    margin-top: -300px;
+    margin-right: 84px;
+}
+
+#titleCuriosidades2 {
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* 150% */
+    letter-spacing: -0.36px;
+    margin-bottom: 30px;
+}
+
+#titleContato {
+
+    position: relative;
+    margin-left: 190px;
+    top: 110px;
+    width: 1043px;
+    height: 100px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.80);
+
+    /* Body P Large */
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 138.889% */
+    letter-spacing: -0.54px;
+}
+
+#redes-contato {
+    position: relative;
+    margin-left: 450px;
+    top: -80px;
+}
+
+#redes-contato img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+#titleRedes {
+    position: relative;
+    margin-left: 1309px;
+    top: -140px;
+    width: 1043px;
+    height: 100px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.80);
+
+    /* Body P Large */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 138.889% */
+    letter-spacing: -0.54px;
+}
+
+#barra-redes{
+    position: relative;
+    margin-left: 1295px;
+    margin-top: -200px;
+    width: 220px;
+    height: 2px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+#subtitleContato {
+    position: relative;
+    width: 770px;
+    height: 145px;
+    margin-left: 250px;
+    top: 80px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 166.667% */
+    letter-spacing: -0.45px;
+}
+
+#barra-Lucas {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 139px;
+    width: 1720px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+#imagemLucas {
+
+    position: relative;
+    width: 417px;
+    height: 366px;
+    flex-shrink: 0;
+    margin-top: 200px;
+    margin-left: 201px;
+    border-radius: 168px;
+
+}
+
+#textoLucas {
+    position: relative;
+    width: 890px;
+    height: 342px;
+    flex-shrink: 0;
+    margin-top: -330px;
+    margin-left: 801px;
+    color: rgba(0, 0, 0, 0.80);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 166.667% */
+    letter-spacing: -0.45px;
+}
+
+
+
+#imagemFooter {
+
+    position: relative;
+    margin-top: 31px;
+    margin-left: 48%;
+    width: 130px;
+    height: 121px;
+    flex-shrink: 0;
+}
+
+#barraFooter {
+
+    position: relative;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 1720px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.redes-sociais img {
+    width: 44px;
+    height: 44px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2);
+}
+
+.redes-sociais img.active {
+    transform: rotate(360deg);
+}
+
+#facebook {
+    position: relative;
+    margin-left: 850px;
+    top: 100px;
+}
+
+#gmail {
+    position: relative;
+    margin-left: 20px;
+    top: 100px;
+}
+
+#instagram {
+    position: relative;
+    margin-left: 20px;
+    top: 100px;
+}
+
+#whatsapp {
+    position: relative;
+    margin-left: 20px;
+    top: 100px;
+}
+
+#textFooter {
+    position: relative;
+    margin-left: 830px;
+    margin-top: 90px;
+    width: 301px;
+    height: 24px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 160% */
+    letter-spacing: -0.225px;
+}
+
+#barraFooter2 {
+    position: relative;
+    margin-left: 820px;
+    margin-top: 115px;
+    width: 320px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.20);
+}
